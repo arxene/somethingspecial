@@ -152,7 +152,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 683px;
+  min-height: 700px;
+  background-color: pink;
   color: #fff; }
 
 /**
@@ -191,6 +192,9 @@ body {
 @media screen and (max-width: 800px) {
   .call-us, .navmenu, .branding {
     display: block; }
+
+  .logo, .branding h1 {
+    display: inline-block; }
 
   .call-us {
     font-size: 1.5em; }
