@@ -18,19 +18,17 @@
 
 .header {
   background-color: rgba(255,255,255,0.3);
+  padding: 1em;
 }
 
 .navmenu a {
   color: #fff;
-  margin-right: 50px;
-}
-
-.navmenu a {
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .navmenu a:hover {
-  color: darken(#ddd, 10%);
+  color: #000;
   text-decoration: underline;
 }
 
@@ -55,29 +53,26 @@
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 700px) {
-  .header {
-    padding: 1em;
-  }
-  
-  .branding h1, .logo {
-    display: inline-block;
-  }
-  
-  .call-us, .navmenu {
+@media screen and (max-width: 800px) {
+  .call-us, .navmenu, .branding {
     display: block;
   }
   
   .call-us {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   
   .blurb {
     margin: 1em;
   }
+  
+  .navmenu {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 801px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -89,6 +84,10 @@
   
   .navmenu {
     margin-top: 30px;
+  }
+  
+  .navmenu a {
+    margin-right: 50px;
   }
   
   .call-us {
@@ -107,6 +106,4 @@
     padding-left: 70px;
     max-width: 650px;
   }
-  
-  
 }
