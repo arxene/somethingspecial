@@ -3,11 +3,15 @@
  */
 
 .hero {
-  background-image: url(/somethingspecial/assets/img/hero.jpg);
+  background-image:
+    linear-gradient(
+      rgba(black, 0.3),
+      rgba(black, 0.3)
+    ),
+    url(/somethingspecial/assets/img/hero-lawnmower.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   min-height: 683px;
   color: #fff;
 }
@@ -17,20 +21,22 @@
  */
 
 .header {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(white, 0.4);
   padding: 2em 1em 1em;
+}
+
+.logo, .branding h1 {
+  display: inline-block;
 }
 
 .navmenu a {
   color: #fff;
-  text-decoration: none;
   font-size: 1.2em;
   margin-right: 50px;
 }
 
 .navmenu a:hover {
   color: #000;
-  text-decoration: underline;
 }
 
 .header h1 {
@@ -47,6 +53,10 @@
   padding-bottom: 1em;
 }
 
+.call-us {
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 450px) {
   .navmenu {
     display: flex;
@@ -59,12 +69,8 @@
     display: block;
   }
   
-  .logo, .branding h1 {
-    display: inline-block;
-  }
-  
   .call-us {
-    font-size: 1.5em;
+    margin-top: 0;
   }
   
   .blurb {
@@ -78,17 +84,12 @@
     justify-content: space-between;
   }
   
-  .logo, .header h1 {
-    display: inline-block;
-  }
-  
   .navmenu {
     margin-top: 30px;
   }
   
   .call-us {
     margin-top: 35px;
-    font-size: 1.5em;
   }
   
   .blurb {
