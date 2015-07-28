@@ -11,7 +11,7 @@
   <noscript><link rel="stylesheet" type="text/css" href="assets/css/3rdparty/GammaGallery/css/noJS.css"/></noscript>
 </head>
 <body>
-  <div class="hero" id="landing" data-type="background" data-speed="10">
+  <div class="hero" id="landing">
     <header class="header">
       <div class="branding">
         <a href="#landing">
@@ -27,7 +27,7 @@
         <!-- nav menu -->
         <nav class="navmenu">
           <a href="#services">Services</a>
-          <a href="#photos">Photos</a>
+          <!--a href="#photos">Photos</a-->
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -110,7 +110,7 @@
   
   <section class="contact" id="contact">
     <div class="contact-item">
-      <img src="/somethingspecial/assets/img/phone-icon.png" class="icon" />
+      <img src="/assets/img/phone-icon.png" class="icon" />
       
       <div class="contact-right">
         <p>(540) 986-6731</p>
@@ -120,7 +120,7 @@
     <hr />
     
     <div class="contact-item">      
-      <img src="/somethpingspecial/assets/img/mail-icon.png" class="icon" />
+      <img src="/assets/img/mail-icon.png" class="icon" />
       
       <div class="contact-right">
         <p class="contact-right"><a href="mailto:mmcmahan225@gmail.com">mmcmahan225@gmail.com</a></p>
@@ -130,7 +130,7 @@
     <hr />
     
     <div class="contact-item">      
-      <img src="/somethingspecial/assets/img/clock-icon.png" class="icon" />
+      <img src="/assets/img/clock-icon.png" class="icon" />
       
       <div class="contact-right">
         <p>Hours</p>
@@ -141,7 +141,7 @@
     <hr />
     
     <div class="contact-item">
-      <img src="/somethingspecial/assets/img/map-icon.png" class="icon" />
+      <img src="/assets/img/map-icon.png" class="icon" />
       
       <div class="contact-right">
         <p>2408 Westover Ave<br>
@@ -155,7 +155,7 @@
   
   <footer>
     <a href="#services">Services</a>
-    <a href="#photos">Photos</a>
+    <!--a href="#photos">Photos</a-->
     <a href="#contact">Contact</a>
   </footer>
   
