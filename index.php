@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/css/3rdparty/GammaGallery/css/style.min.css">
   <script src="assets/css/3rdparty/GammaGallery/js/modernizr.custom.70736.js"></script>
   <noscript><link rel="stylesheet" type="text/css" href="assets/css/3rdparty/GammaGallery/css/noJS.css"/></noscript>
+  <title>Something Special Lawncare</title>
 </head>
 <body>
   <div class="hero" id="landing">
