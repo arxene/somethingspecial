@@ -123,7 +123,7 @@
       <img src="/assets/img/mail-icon.png" class="icon" />
       
       <div class="contact-right">
-        <p class="contact-right"><a href="mailto:mmcmahan225@gmail.com">mmcmahan225@gmail.com</a></p>
+        <p class="contact-right"><a href="mailto:matt.mcmahan@somethingspeciallawncare.com">matt.mcmahan@somethingspeciallawncare.com</a></p>
       </div>
     </div>
     
@@ -144,11 +144,11 @@
       <img src="/assets/img/map-icon.png" class="icon" />
       
       <div class="contact-right">
-        <p>2408 Westover Ave<br>
-          Roanoke, VA 24015
+        <p>1374 Rucker Rd<br>
+          Moneta, VA 24121
         </p>
         
-        <p class="small" style="text-decoration:underline;"><a href="https://goo.gl/maps/JRi6B" target="_blank">Map</a></p>
+        <p class="small" style="text-decoration:underline;"><a href="https://goo.gl/maps/QUbHT" target="_blank">Map</a></p>
       </div>
     </div>
   </section>
