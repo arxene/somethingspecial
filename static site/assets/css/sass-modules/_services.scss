@@ -1,0 +1,52 @@
+/**
+ *   Services
+ */
+
+.services {
+  background-color: #f5f5f4;
+  color: #222;
+}
+
+.services form {
+  margin-top: 2em;
+}
+
+.services label, .services input {
+  display: block;
+}
+
+.services input {
+  margin-bottom: 1em;
+}
+
+.services textarea {
+  max-width: 100%;
+  width: 500px;
+  height: 200px;
+}
+
+/**
+ *   Mobile size
+ */
+@media screen and (max-width: 750px) {  
+  .servicesTextWrap h2 {
+    margin-top: 0;
+  }
+}
+
+
+/**
+ *   Desktop size
+ */
+@media screen and (min-width: 751px) {
+  .services {
+    background-image: url(/assets/img/lawnmower-vector.png);
+    background-size: 30%;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+  }
+  
+  .servicesTextWrap {    
+    max-width: 450px;
+  }
+}
